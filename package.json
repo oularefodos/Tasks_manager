@@ -1,0 +1,24 @@
+{
+  "name": "task_manager",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000a\u0000s\u0000k\u0000_\u0000m\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oularefodos/Tasks_manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oularefodos/Tasks_manager/issues"
+  },
+  "homepage": "https://github.com/oularefodos/Tasks_manager#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
