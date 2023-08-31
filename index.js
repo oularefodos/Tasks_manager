@@ -1,6 +1,7 @@
 const express = require('express');
 const connectDB = require('./config/db.config');
 const TaskRouter = require('./src/routes/tasks.routes');
+const errorHandler = require('./src/middleware/errorHandler');
 const app = express()
 require('dotenv').config();
 
@@ -13,6 +14,7 @@ app.use(express.json());
 
 app.use('/api/v1/tasks', TaskRouter);
 
+app.use(errorHandler);
 const PORT = process.env.PORT || 3000;
 
 const launchServer = async () => {
