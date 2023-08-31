@@ -1,7 +1,17 @@
 const express = require('express');
 const connectDB = require('./config/db.config');
+const TaskRouter = require('./src/routes/tasks.routes');
 const app = express()
 require('dotenv').config();
+
+// Middleware
+
+app.use(express.json());
+
+// routes
+
+
+app.use('/api/v1/tasks', TaskRouter);
 
 const PORT = process.env.PORT || 3000;
 
