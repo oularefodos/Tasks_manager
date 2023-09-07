@@ -10,7 +10,7 @@ A simple web-based Todo List application to help you keep track of your tasks.
 1. Clone the repository:
 
 ```bash
-    git clone project_repo_link
+    git clone git@github.com:oularefodos/Tasks_manager.git
     cd Tasks_manager
     echo MONGO_URL=YOUR_MONGODB_URL >> .env
     echo PORT=YOUR_PORT >> .env 
